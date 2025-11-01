@@ -220,3 +220,113 @@ pre{
     color: white;
 }
 
+
+/* Mobile Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .navbar {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    
+    .navbar a {
+        padding: 12px 20px;
+    }
+    
+    .navbar .icon img {
+        height: 50px;
+        top: 10px;
+        left: 15px;
+    }
+    
+    .ticket {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 300px;
+        border-radius: 20px;
+    }
+    
+    .ticket img {
+        width: 100%;
+        height: auto;
+    }
+    
+    @keyframes slideIn {
+        from {
+            right: -100px;
+            opacity: 0;
+        }
+        to {
+            right: 0;
+            opacity: 1;
+        }
+    }
+    
+    .title {
+        position: relative;
+        font-size: 30px;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 20px 0;
+        padding: 0 15px;
+    }
+    
+    pre {
+        position: relative;
+        font-size: 16px;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0 15px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    
+    .movies,
+    .entertainment,
+    .sports {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 250px;
+        display: block;
+        font-size: 20px;
+    }
+    
+    .movies {
+        margin-top: 30px;
+    }
+    
+    .sign {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .account {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin: 10px auto;
+        display: block;
+        width: 80%;
+        max-width: 200px;
+    }
+}
+
