@@ -1,5 +1,9 @@
 body{
-    background-color: black;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;      
+    background-size: cover;            
+    background-position: center;       
+    background-attachment: fixed;
 }
 .navbar{
     overflow: hidden;
@@ -80,14 +84,14 @@ pre{
 
 /* Buttons */
 
-.buy {
-  background: black;
+.movies {
+  background: #d4000053;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 0.6em 1.3em;
   font-weight: 900;
   font-size: 25px;
   color: white;
-  border: 3px solid white;
+  border: 3px solid #d4000053;
   border-radius: 0.4em;
   box-shadow: 0.1em 0.1em;
   cursor: pointer;
@@ -97,14 +101,70 @@ pre{
   left: 50px;
 }
 
-.buy:hover {
+.movies:hover {
   transform: translate(-0.05em, -0.05em);
   box-shadow: 0.15em 0.15em;
-  background-color: aquamarine;
-  color: black;
+  background-color: red;
+  color: white;
 }
 
-.buy:active {
+.movies:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+.entertainment {
+  background: #ff9b205f;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+  border: 5px solid #ff9b205f;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: absolute;
+  top: 400px;
+  left: 250px;
+}
+
+.entertainment:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+  background-color: rgb(255, 145, 0);
+  color: white;
+}
+
+.entertainment:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+.sports {
+  background: #00c3752e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+  border: 5px solid #00c3752e;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: absolute;
+  top: 400px;
+  left: 530px;
+}
+
+.sports:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+  background-color: green;
+  color: white;
+}
+
+.sports:active {
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em;
 }
@@ -113,7 +173,7 @@ pre{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 0.6em 1.3em;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 15px;
   color: black;
   border: 5px solid white;
   border-radius: 0.4em;
@@ -121,10 +181,9 @@ pre{
   cursor: pointer;
   transition: 0.3s ease;
   position: absolute;
-  top: 400px;
-  left: 350px;
+  bottom: 10px;
+  left: 800px;
 }
-
 .account:hover {
   transform: translate(-0.05em, -0.05em);
   box-shadow: 0.15em 0.15em;
@@ -136,3 +195,28 @@ pre{
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em;
 }
+.sign{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 670px;
+}
+.sign a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+.sign a:hover{
+    color: white;
+    text-decoration: dotted;
+}
+.sign h1{
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
+
