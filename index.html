@@ -9,17 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <div class="navbar">
-         <a href="#">Home</a>
-         <a href="#">About</a>
-         <a href="#">Contact</a>
-         <div class="icon">
-            <a href="index.html" title="M.tickets icon">
-         <img src="images/icon.png" alt="M.tickets icon">
-            </a>
-         </div>
-    </div>
-
+    <!-- Nav -->
+    <nav>
+        <input type="checkbox" id="check">
+        <div class="logo-menu">
+            <label class="toggle" for="check">
+                <span class="top_line common"></span>
+                <span class="mid_line common"></span>
+                <span class="bot_line common"></span>
+            </label>
+            <a href="#"><img src="images/icon.png" alt="Logo" title="M.tickets logo"></a>
+        </div>
+        <div class="side-nav">
+            <ul>
+                <li><a href="index.html">home</a></li><hr>
+                <li><a href="#">stadium locations</a></li><hr>
+                <li><a href="html/about.html">about m tickets</a></li><hr>
+                <li><a href="html/contact.html">contact us</a></li>
+            </ul>
+        </div>
+        
+        <div class="signup-register">
+            <a href="#"><i class="fa-solid fa-user-plus"></i><span>Register</span></a>
+            <hr>
+            <a href="#"><i class="fa-solid fa-unlock"></i><span>Sign in</span></a>
+        </div>
+    </nav>
     <h1 class="title"><i class="fa-solid fa-ticket"></i> Best website for tickets reservation :</h1>
     <pre>
 Explore and book all exclusive events and matches — from VIP sports to private concerts,
@@ -30,29 +45,23 @@ your experience starts here — anytime, anywhere, in just a few clicks.
     <img src="images/ticket model.png" alt="ticket 3d model">
     </div>
     <!--Buttons-->
-    <a href="#">
-    <button class="movies">
-        <i class="fa-solid fa-film"></i> Movies
-    </button>
-    </a>
+<a href="#">
+<button class="movies">
+    <span class="icon"><i class="fa-solid fa-film"></i></span>
+    <span class="text">Movies</span>
+</button>
+</a>
     <a href="#">
     <button class="entertainment">
-        <i class="fa-solid fa-headphones"></i> Entertainment
-    </button>
+    <span class="icon"><i class="fa-solid fa-microphone"></i></span>
+    <span class="text">Entertainment</span>
+</button>
     </a>
     <a href="#">
     <button class="sports">
-        <i class="fa-regular fa-futbol"></i> Sports
-    </button>
-    </a>
-    <div class="sign">
-     <a href="#">Sign in</a>
-     <h1>Or</h1>
-     </div>
-     <a href="#">
-    <button class="account">
-       <i class="fa-regular fa-user"></i>  Create account
-    </button>
+    <span class="icon"><i class="fa-solid fa-futbol"></i></span>
+    <span class="text">Sports</span>
+</button>
     </a>
 
 </body>
