@@ -19,3 +19,7 @@ The **Tickets Reservation Website** Built using **HTML**, **CSS**, and **JavaScr
 - 🧾 Simple and responsive UI for quick navigation.  
 
 ---
+
+## Screenshots of our website
+![Home page](images/Homedefault)
+
