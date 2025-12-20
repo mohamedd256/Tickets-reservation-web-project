@@ -20,6 +20,17 @@ The **Tickets Reservation Website** Built using **HTML**, **CSS**, and **JavaScr
 
 ---
 
-## Screenshots of our website
-![Home page](images/Homedefault)
+## 📸 Screenshots from our website
+
+### 🏠 Home Page
+![Home Page](images/Home.png)
+
+### ⚽ Sports Section
+![Sports Section](images/Sports.png)
+
+### 🎬 Movies Section
+![Movies Section](images/Movies.png)
+
+### 🎟️ Events Page
+![Events Section](images/Events.png)
 
